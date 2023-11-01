@@ -1,4 +1,6 @@
-import QuizAnswer from './QuizAnswer'
+import React from 'react';
+
+import QuizAnswer from './QuizAnswer';
 
 export default function QuizItem({chooseAnswer, quizState, item}) {
     const answers = item.answers.map((answer, id) => 

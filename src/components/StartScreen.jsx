@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function StartPage({startQuiz}) {
     return (
         <main className="start-screen">

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import PulseLoader from 'react-spinners/PulseLoader'
+import PulseLoader from 'react-spinners/PulseLoader';
 
-import QuizItem from './QuizItem'
+import QuizItem from './QuizItem';
 
-import {decode} from 'html-entities'
+import {decode} from 'html-entities';
 
 export default function QuizPage() {
     const [quizItems, setQuizItems] = React.useState([]);

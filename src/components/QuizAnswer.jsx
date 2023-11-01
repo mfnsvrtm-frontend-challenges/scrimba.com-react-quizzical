@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function QuizAnswer({id, text, quizItem, onClick, quizState}) {
     let stateClass;
     if (quizState === 'completed') {
